@@ -6,5 +6,6 @@ public class Main {
         System.out.println(animal.getName() + " is " + animal.getAge() +
                 " years old and says: " + animal.makeSound());
         animal.eat("grass");
+        Bird bird = new Bird("Tweety", "yellow"); bird.fly();
     }
 }
