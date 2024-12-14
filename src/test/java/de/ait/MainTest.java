@@ -10,7 +10,7 @@ public class MainTest {
     void testGetGreetingReturnsCorrectMessage() {
         Main main = new Main();
         String greeting = main.getGreeting("Test");
-        assertEquals("Hallo, Test!", greeting);
+        assertEquals("Hello, Test!", greeting);
     }
 
 }

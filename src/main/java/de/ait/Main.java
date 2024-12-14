@@ -7,7 +7,7 @@ public class Main {
     }
 
     public static String getGreeting(String name) {
-        return "Hallo, " + name + "!";
+        return "Hello, " + name + "!";
     }
 }
 
