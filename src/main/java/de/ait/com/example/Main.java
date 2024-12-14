@@ -5,5 +5,6 @@ public class Main {
         Animal animal = new Animal("Generic Animal", 5);
         System.out.println(animal.getName() + " is " + animal.getAge() +
                 " years old and says: " + animal.makeSound());
+        animal.eat("grass");
     }
 }
