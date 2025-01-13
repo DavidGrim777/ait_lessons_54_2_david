@@ -26,4 +26,10 @@ public class Main {
         adminUser.checkPermissions();
         adminUser.banUser(user1);
     }
+
+    User dani = new User("Dani");
+    User toni = new User("Toni");
+    User messi = new User("Messi");
+
+
 }
