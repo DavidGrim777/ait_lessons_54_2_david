@@ -28,6 +28,9 @@ public class PostOffice extends MailItem{
     }
 
     public void calculateTotalShippingCost() {
+        if (mailItems.isEmpty()) {
+            System.out.println("No mail items to calculate.");
+        }
         double totalCost = 0;
         for (MailItem item : mailItems) {
             totalCost = totalCost + item.calculateShippingCost();
